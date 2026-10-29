@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-29T21:36:50.718152+08:00",
+  "index_sha256": "252ed4fae6b313d348140e3f6360832dd6c252d640d82547f670fd392fc96d1f",
+  "index_bytes": 1615804,
+  "preview_file_identical": true,
+  "main_route": [
+    "setup",
+    "projects",
+    "valuation",
+    "recommendation",
+    "hindsight"
+  ],
+  "font_families": [
+    "Heiti SC",
+    "Times New Roman"
+  ],
+  "market_comparison_collapsed": true,
+  "author": "Praymo"
+}
