@@ -5,7 +5,9 @@ Interactive group project for the New Heritage capital allocation case.
 Website: https://praymo.github.io/nh/
 
 This repository publishes its `main` branch root through GitHub Pages.
-No installation or build step is required. Open `index.html` to view offline.
+No installation or build step is required. Serve the repository root to preview
+`index.html`; the standalone annual model is `annual-model.html`. Both pages share
+`styles.css` and the unchanged financial calculations in `model-core.js`.
 
 The site originated from `New_Heritage_FINAL_20261029.zip` and now includes
 subsequent presentation edits. Current and original HTML checksums are recorded

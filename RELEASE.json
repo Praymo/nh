@@ -1,7 +1,7 @@
 {
   "created_at": "2026-10-29T21:36:50.718152+08:00",
-  "index_sha256": "a99cc2d6aa9a1ec3d9b73e31f8014764ca54558dde17a6fb8199aee4ea47f1d7",
-  "index_bytes": 1608307,
+  "index_sha256": "85af2d9ffad068ddb63877e89e2b4017e847601a926b74afb4a05b107edfe9fc",
+  "index_bytes": 137596,
   "main_route": [
     "setup",
     "projects",
@@ -17,5 +17,12 @@
   "market_comparison_collapsed": true,
   "author": "Praymo",
   "original_index_sha256": "252ed4fae6b313d348140e3f6360832dd6c252d640d82547f670fd392fc96d1f",
-  "updated_at": "2026-11-01T19:32:56.240463+08:00"
+  "updated_at": "2026-11-01T19:47:18.304564+08:00",
+  "annual_model_page": "annual-model.html",
+  "asset_sha256": {
+    "styles.css": "76ca708abfd4f101b7f73ec6380e8bcd10eee6b615c7d647da90165ec882f2a7",
+    "model-core.js": "ab8cdd26cdf9394f12eb51d4260d1ad658a799048d1a204415ec1a7d99b40659",
+    "annual-model.js": "827119b7a3a191fd5fed5a24742c8ab8ff1b7324140b27807dcb2377a1051c44",
+    "annual-model.html": "cc698bfef313cd1142595df7cd174ce7523ef9bd72b4e94cd511b64dd155c5e0"
+  }
 }
