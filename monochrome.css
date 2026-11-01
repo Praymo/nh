@@ -315,3 +315,10 @@ body *,body *::before,body *::after{transition:none!important;animation:none!imp
 @media(max-width:800px){
  #projectCards .project-card+.project-card{margin-top:10px}
 }
+
+/* Compact final presentation copy; allow natural wrapping on narrow screens. */
+#lab > .tool-intro, #projects > .wrap > .section-body > .zh { max-width:none; }
+.sensitivity-takeaway { max-width:none; font-size:16px; margin:20px 0 0; }
+.popmart-lesson { border-top:0; margin-top:12px; padding-top:0; }
+.popmart-lesson h3 { font-size:clamp(24px,2.6cqw,34px); }
+.popmart-lesson p { max-width:none; }
