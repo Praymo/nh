@@ -322,3 +322,9 @@ body *,body *::before,body *::after{transition:none!important;animation:none!imp
 .popmart-lesson { border-top:0; margin-top:12px; padding-top:0; }
 .popmart-lesson h3 { font-size:clamp(24px,2.6cqw,34px); }
 .popmart-lesson p { max-width:none; }
+
+.market-snapshot { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; padding:0 0 18px; margin-bottom:14px; border-bottom:1px solid var(--dp-color-quiet); }
+.market-snapshot > div { display:flex; flex-direction:column; gap:6px; }
+.market-snapshot strong { font:500 36px/1 var(--dp-typography-display); }
+.market-snapshot span { font:11px/1.5 var(--dp-typography-mono); color:var(--dp-color-secondary); }
+@media(max-width:680px) { .market-snapshot { gap:10px; } .market-snapshot strong { font-size:29px; } .market-snapshot span { font-size:10px; } }
