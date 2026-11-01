@@ -332,3 +332,7 @@ body *,body *::before,body *::after{transition:none!important;animation:none!imp
 .alternatives-summary { max-width:none; font-size:15px; line-height:1.5; color:var(--dp-color-secondary); margin:0 0 20px; }
 
 .hero-lede { margin-top:24px; }
+
+#setup .case-question { margin:18px 0 0; padding:24px 0; }
+#setup .section-body { padding-bottom:0; }
+.macro-check > p { max-width:none; }
