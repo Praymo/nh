@@ -330,3 +330,5 @@ body *,body *::before,body *::after{transition:none!important;animation:none!imp
 @media(max-width:680px) { .market-snapshot { gap:10px; } .market-snapshot strong { font-size:29px; } .market-snapshot span { font-size:10px; } }
 
 .alternatives-summary { max-width:none; font-size:15px; line-height:1.5; color:var(--dp-color-secondary); margin:0 0 20px; }
+
+.hero-lede { margin-top:24px; }

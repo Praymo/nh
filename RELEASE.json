@@ -1,7 +1,7 @@
 {
   "created_at": "2026-10-29T21:36:50.718152+08:00",
-  "index_sha256": "58f236ddaeb50ce21f4486c68a12995308729570636fe94c7df5af6f0b6d90c1",
-  "index_bytes": 139329,
+  "index_sha256": "ba6d4203ad25912bcab79efffd16a4c3731c5a1bb21946fbbdb959c200db4ead",
+  "index_bytes": 139323,
   "main_route": [
     "setup",
     "projects",
@@ -23,9 +23,9 @@
     "styles.css": "4e0a5b279b118a790de0d7de39d81fa32ffa1772f9340ad8e8f42858c5694866",
     "model-core.js": "ab8cdd26cdf9394f12eb51d4260d1ad658a799048d1a204415ec1a7d99b40659",
     "annual-model.js": "827119b7a3a191fd5fed5a24742c8ab8ff1b7324140b27807dcb2377a1051c44",
-    "annual-model.html": "147d5f8af11c495c20c28c94bdd818d8f7aa2ff6301868a3b07ad70e2eb1a568",
+    "annual-model.html": "c3bcbca5c99e84b3e6ab4879ee72b3c843acff5b45dd941dbd5d4306b7f96d44",
     "fonts.css": "19396002fd58633b51cf8bb8d51a7c9b72a76a0ed9fe5d3f0b5cda119ebc62d5",
-    "monochrome.css": "9991f27fcded7548a96ab417343087a232366630e37633bf8059c56f9b2ac616"
+    "monochrome.css": "33fa040128abfa4938e6cb3a6fe7fa48529be450a095ca634a57ede420ec2457"
   },
   "visual_style": "Monochrome editorial; original sensitivity heatmap colors retained"
 }
