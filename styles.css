@@ -425,3 +425,27 @@ html{scroll-padding-top:calc(var(--header-height) + 20px)}
 #lab .scenario-card>span{font-size:14px;line-height:1.6}
 #lab .scenario-card>span>span{display:block}
 #lab .scenario-card>span b{font-weight:600}
+
+/* Audit refinements: opaque compact navigation, legible scope and input guidance. */
+.topbar{background:#fff}
+.topbar-inner{padding-top:10px;padding-bottom:10px}
+.navlinks{padding-top:0;padding-bottom:6px}
+.nav-row{padding-top:3px;padding-bottom:3px}
+.nav-label{color:#666}
+.nav-row.research-nav a{color:#555}
+.floating-nav .btn{min-height:32px;padding:6px 10px;font-size:12px}
+.scope-tag{display:inline-block;border:1px solid #ccc;padding:2px 6px;font-size:11px;line-height:1.4;color:#555;letter-spacing:0;vertical-align:middle}
+.advanced-controls summary .scope-tag{margin-left:8px}
+#lab .control-help{font-size:12px;line-height:1.4;color:#595959;margin:3px 0 8px}
+.bayes-scope{font-size:13px;line-height:1.5;color:#555;border-left:2px solid #999;padding-left:10px;margin:16px 0}
+.bayes-scenarios{margin:0 0 20px}
+.bayes-scenarios .validation-table{margin-top:12px}
+.bayes-input-table{min-width:600px}
+.bayes-input-table th:first-child{width:20%}
+.bayes-input-table input{font-size:17px;width:70px}
+.bayes-input-table .bayes-product{color:#666;font-variant-numeric:tabular-nums}
+#bayesian .input-note{font-size:13px;color:#555}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.metric-current.is-updated{animation:none}}
+@media(max-width:850px){.nav-row .nav-label{display:none}.nav-row{gap:16px}}
+
+.spread-note{font-size:13px;line-height:1.5;color:#555;margin:8px 0}
