@@ -1,7 +1,7 @@
 {
   "created_at": "2026-10-29T21:36:50.718152+08:00",
-  "index_sha256": "4f7796810c00beb735fcadec242971c05c602504b1aceaadca7fb437ff28531c",
-  "index_bytes": 139187,
+  "index_sha256": "58f236ddaeb50ce21f4486c68a12995308729570636fe94c7df5af6f0b6d90c1",
+  "index_bytes": 139329,
   "main_route": [
     "setup",
     "projects",
@@ -17,15 +17,15 @@
   "market_comparison_collapsed": true,
   "author": "Praymo",
   "original_index_sha256": "252ed4fae6b313d348140e3f6360832dd6c252d640d82547f670fd392fc96d1f",
-  "updated_at": "2026-11-01T21:46:55.776962+08:00",
+  "updated_at": "2026-11-01T21:51:39.002869+08:00",
   "annual_model_page": "annual-model.html",
   "asset_sha256": {
     "styles.css": "4e0a5b279b118a790de0d7de39d81fa32ffa1772f9340ad8e8f42858c5694866",
     "model-core.js": "ab8cdd26cdf9394f12eb51d4260d1ad658a799048d1a204415ec1a7d99b40659",
     "annual-model.js": "827119b7a3a191fd5fed5a24742c8ab8ff1b7324140b27807dcb2377a1051c44",
-    "annual-model.html": "73641bc88412f460145dbf033f0c610046d7b582672c3bbb6f9cc660e7e087b7",
+    "annual-model.html": "147d5f8af11c495c20c28c94bdd818d8f7aa2ff6301868a3b07ad70e2eb1a568",
     "fonts.css": "19396002fd58633b51cf8bb8d51a7c9b72a76a0ed9fe5d3f0b5cda119ebc62d5",
-    "monochrome.css": "cbb04e9362d7de786ce1f109caa86f39e05b78623eda0952479a097cff21f150"
+    "monochrome.css": "9991f27fcded7548a96ab417343087a232366630e37633bf8059c56f9b2ac616"
   },
   "visual_style": "Monochrome editorial; original sensitivity heatmap colors retained"
 }
