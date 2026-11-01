@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Monochrome Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/eb-garamond-italic-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Display';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/eb-garamond-italic-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/eb-garamond-normal-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/eb-garamond-normal-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/eb-garamond-normal-600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/ibm-plex-mono-normal-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/ibm-plex-mono-normal-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/source-serif-4-normal-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/source-serif-4-normal-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monochrome Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/source-serif-4-normal-600.ttf) format('truetype');
+}

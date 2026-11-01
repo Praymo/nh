@@ -14,3 +14,7 @@ subsequent presentation edits. Current and original HTML checksums are recorded
 in `RELEASE.json`.
 Netlify configuration files are retained for portability. GitHub Pages does
 not apply Netlify-specific cache headers.
+
+The Monochrome visual layer is in `monochrome.css`; locally bundled EB Garamond,
+Source Serif 4 and IBM Plex Mono fonts are declared in `fonts.css`, with their
+OFL licenses in `fonts/`. The sensitivity heatmap retains its original palette.

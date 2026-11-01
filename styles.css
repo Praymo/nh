@@ -282,7 +282,7 @@
 /* Five-part presentation route; the existing lab remains available below it. */
 :root{--reading-font:'Times New Roman','Heiti SC';--serif:var(--reading-font);--sans:var(--reading-font);--header-height:134px}
 body{font-family:var(--reading-font)}
-body *{font-family:var(--reading-font)!important}
+
 html{scroll-padding-top:calc(var(--header-height) + 20px)}
 .navlinks{display:block;overflow:visible;padding:2px 32px 10px}
 .nav-row{display:flex;align-items:center;gap:22px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;padding:5px 0}
