@@ -282,3 +282,36 @@ details[open]>summary{margin-bottom:10px}
 /* Still composition: dynamic values update immediately, without a flash. */
 body *,body *::before,body *::after{transition:none!important;animation:none!important}
 .metric-current.is-updated{background:transparent}
+/* Align corresponding rows without reserving space for deleted translations. */
+#projectCards{grid-auto-rows:auto;row-gap:10px}
+#projectCards .project-card{display:grid;grid-row:span 8;grid-template-rows:subgrid;row-gap:10px}
+#projectCards .project-card>h3{grid-row:1;margin:0}
+#projectCards .project-name{grid-row:2;margin:0}
+#projectCards .project-pitch{grid-row:3;margin:0;min-height:0}
+#projectCards .alternative-details{grid-row:4/span 3;display:grid;grid-template-rows:subgrid;gap:10px;margin:0}
+#projectCards .project-facts{grid-row:7/span 2;display:grid;grid-template-rows:subgrid;gap:8px;margin:0;padding-top:10px}
+#projectCards .project-facts>span{min-height:0}
+.hindsight-grid{grid-auto-rows:auto;row-gap:10px}
+.hindsight-grid>article{display:grid;grid-row:span 7;grid-template-rows:subgrid;row-gap:10px;align-content:start}
+.hindsight-grid>article>:is(.micro,h3,.history-number,small,p,.evidence-links){margin:0;min-height:0}
+.hindsight-grid>article>.micro{line-height:1.5}
+.hindsight-grid .evidence-links{align-self:start;font-size:12px;line-height:1.5}
+.hindsight-grid .evidence-links a{margin:0;font-size:12px;display:inline}
+.evidence-grid{grid-auto-rows:auto;row-gap:9px}
+.evidence-grid>article{display:grid;grid-row:span 4;grid-template-rows:subgrid;row-gap:9px}
+.evidence-grid>article>:is(.micro,h3,p,a){margin:0;min-height:0}
+.evidence-grid>article>a{align-self:start;justify-self:start}
+/* Notes use the available column; only reading paragraphs retain a prose measure. */
+.method-note,.source-note,.input-note,.heat-instruction,.bayes-scope,.spread-note{max-width:none}
+.bayes-intro{display:grid;gap:6px;margin:10px 0 18px}
+.bayes-intro>#bayesNarrative{margin:0;max-width:none;font-size:18px;line-height:1.45}
+.bayes-intro>#bayesNarrativeZh{margin:0;font-size:12px;line-height:1.5}
+.bayes-intro>.bayes-scope{border:0;padding:0;margin:2px 0 0;font-size:11px;line-height:1.5}
+#bayesian .bayes-scenarios{margin:10px 0 12px;padding:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+#bayesian .bayes-scenarios>summary{font-size:16px;padding-top:10px;padding-bottom:10px}
+#bayesian .bayes-scenarios>summary:before{top:9px;font-size:18px}
+#bayesian .bayes-tool{margin-top:18px;padding-top:14px}
+#bayesian .bayes-tool>.input-note{margin:8px 0 10px}
+@media(max-width:800px){
+ #projectCards .project-card+.project-card{margin-top:10px}
+}
