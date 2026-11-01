@@ -1,13 +1,13 @@
 {
   "created_at": "2026-10-29T21:36:50.718152+08:00",
-  "index_sha256": "252ed4fae6b313d348140e3f6360832dd6c252d640d82547f670fd392fc96d1f",
-  "index_bytes": 1615804,
-  "preview_file_identical": true,
+  "index_sha256": "c4265aada235c7c75a781adb506c1194b1e921ebc4e7aaaf7725dd6542f8a657",
+  "index_bytes": 1613718,
   "main_route": [
     "setup",
     "projects",
     "valuation",
     "recommendation",
+    "sensitivity",
     "hindsight"
   ],
   "font_families": [
@@ -15,5 +15,7 @@
     "Times New Roman"
   ],
   "market_comparison_collapsed": true,
-  "author": "Praymo"
+  "author": "Praymo",
+  "original_index_sha256": "252ed4fae6b313d348140e3f6360832dd6c252d640d82547f670fd392fc96d1f",
+  "updated_at": "2026-11-01T19:19:30.773453+08:00"
 }
